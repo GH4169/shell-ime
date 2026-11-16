@@ -1,0 +1,23 @@
+{
+  "name": "shell-ime",
+  "displayName": "Shell IME",
+  "description": "Report shell prompt IME state to a verified Code renderer without switching the global input method.",
+  "publisher": "local",
+  "version": "0.1.0",
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.96.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "extensionKind": [
+    "workspace",
+    "ui"
+  ],
+  "main": "./extension.js",
+  "activationEvents": [
+    "onStartupFinished"
+  ],
+  "contributes": {}
+}
